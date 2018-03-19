@@ -1,0 +1,148 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.transaction-form-container {
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 0 2rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 1rem 5%;
+    }
+
+    .transaction-form-container {
+        border-radius: 2rem;
+    }
+}
+
+#transaction-form-header {
+    text-align: right;
+}
+
+#transaction-form-header > h3 {
+    padding: 2rem 0.5rem 0.5rem;
+    display: inline-block;
+    background-color: #F58220;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+#transaction-form-logo-container {
+    display: block;
+    margin: 0 auto 0;
+    width: 12.5rem;
+}
+
+#transaction-form-logo-container > img {
+    width: 100%;
+}
+
+#transaction-form-main-header {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#transaction-form-main-header > h2, #transaction-form-main-header > h1 {
+    font-size: 2rem;
+    font-family: "Candara-Regular", "Candara", "Helvetica", sans-serif;
+    color: #2D2A2B;
+}
+
+#transaction-form-main-header > h1 {
+    padding: 0 1rem 1.5rem;
+    background-color: #DADBDC;
+    width: 22.5rem;
+    margin: 0.5rem auto 0;
+}
+
+#transaction-form-main-header > h1 > span {
+    display: block;
+    background-color: #A32A30;
+    width: 20rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    border-radius: 0 0 0.75rem 0.75rem;
+}
+
+#transaction-form-form {
+    width: 100%;
+    padding: 1rem;
+    background-color: #DCDDDE;
+    margin: 5rem auto 0;
+}
+
+@media (min-width: 768px) {
+    #transaction-form-form {
+        width: 50%;
+    }
+}
+
+.transaction-form-input-container {
+    margin-bottom: 0.5rem;
+}
+
+.transaction-form-input-container:last-of-type {
+    margin-bottom: 0;
+}
+
+.transaction-form-input-container > * {
+    display: inline-block;
+}
+
+.transaction-form-input-container > label {
+    width: 8.5rem;
+    font-size: 1rem;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+}
+
+.transaction-form-input-container > input {
+    padding: 0.25rem 1rem 0.25rem 0.5rem;
+    width: calc(100% - 9.5rem);
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.transaction-form-container > header {
+    height: 10%;
+}
+
+.transaction-form-container > main {
+    height: 75%;
+}
+
+.transaction-form-container > footer {
+    height: 15%;
+}
+
+#transaction-form-main-footer > p {
+    text-align: right;
+    height: 1.125rem;
+    margin-bottom: 0.625rem;
+}
+
+#transaction-form-main-footer > p > a {
+    color: #4A455D;
+    font-size: 1.125rem;
+    text-decoration: none;
+    font-family: "Candara-Regular", "Candara", "Helvetica", sans-serif;
+}
+
+#footer-inner {
+    height: calc(100% - 1.75rem);
+    background-color: #A32A30;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+@media (min-width: 768px) {
+    #footer-inner {
+        border-radius: 0 0 2rem 2rem;
+    }
+}

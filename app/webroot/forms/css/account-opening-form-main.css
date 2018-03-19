@@ -1,0 +1,604 @@
+.account-form-opening-form-main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .account-form-opening-form-main {
+        width: 90%;
+    }
+}
+
+#main-header {
+    padding-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#main-header > #logo-container {
+    text-align: right;
+}
+
+#main-header > h1 {
+    font-size: 1.8rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid #B63347;
+    color: #B63347;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#main-header p, #main-header b {
+    font-size: 1.125rem;
+    color: #B63347;
+    margin-bottom: 0.75rem;
+}
+
+#main-header b {
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+    font-weight: normal;
+}
+
+#sub-container > * {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#sub-container > p {
+    margin-left: 1rem;
+    line-height: 1.25;
+}
+
+#note-1 {
+    margin: 0.75rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #B41F3B;
+}
+
+#note-1 > span {
+    text-transform: uppercase;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+}
+
+.account-form-opening-form-main-content {
+    border-top: 5px solid #414142;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .account-form-opening-form-main-content {
+        padding: 1rem 5% 0;
+    }
+}
+
+.account-form-opening-form-main-form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.account-form-opening-form-main-form fieldset {
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+.account-form-opening-form-main-form fieldset > h4 {
+    background-color: #BCBEC0;
+    padding: 0.75rem;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.account-form-opening-form-main-form fieldset > h4 > .sub-header-content {
+    text-transform: none;
+    font-family: "Leelawadee-Regular", "Leelawadee", "Helvetica", sans-serif;
+}
+
+.account-form-opening-form-main-form fieldset > div {
+    background-color: #E2E3E4;
+    padding: 1rem;
+}
+
+input {
+    border: 1px solid #DCDDDE;
+    padding: 0.25rem 0.5rem;
+    outline: none;
+    font-family: inherit;
+}
+
+#fieldset-1 .inner-fieldset > * {
+    display: inline-block
+}
+
+#fieldset-1 .inner-fieldset > label {
+    width: 11rem;
+    margin: 0.625rem 0;
+}
+
+#type-of-business-label {
+    position: relative;
+    bottom: 4rem;
+}
+
+#fieldset-1 .inner-fieldset > input, #business-checkboxes {
+    width: calc(100% - 11.5rem)
+}
+
+#business-checkboxes > div {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0.5rem;
+}
+
+#business-checkboxes:before, #business-checkboxes:after {
+    display: table;
+    content: " ";
+}
+
+#business-checkboxes:after {
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    #business-checkboxes > div:first-of-type, #business-checkboxes > div:nth-of-type(2), #business-checkboxes > div:nth-of-type(3),
+    #business-checkboxes > div:nth-of-type(4), #business-checkboxes > div:nth-of-type(5), #business-checkboxes > div:nth-of-type(6),
+    #business-checkboxes > div:nth-of-type(9), #business-checkboxes > div:nth-of-type(10), #business-checkboxes > div:nth-of-type(11) {
+        width: 20%;
+    }
+
+    #business-checkboxes > div:nth-of-type(7), #business-checkboxes > div:nth-of-type(8), #business-checkboxes > div:nth-of-type(12) {
+        width: 40%;
+    }
+
+    #business-checkboxes > div:nth-of-type(13) {
+        width: 15%;
+    }
+
+    #business-checkboxes > div:last-of-type {
+        width: 85%;
+    }
+}
+
+#business-checkboxes > div:last-of-type > input {
+    width: 100%;
+}
+
+#fieldset-2 .inner-fieldset {
+    margin-bottom: 0.75rem;
+}
+
+#fieldset-2 .inner-fieldset > label {
+    display: inline-block;
+    width: 9rem;
+}
+
+#fieldset-2 .inner-fieldset > input {
+    width: calc(100% - 9.5rem);
+    display: inline-block;
+}
+
+#fieldset-2 .side-by-side-fieldset:before, #fieldset-2 .side-by-side-fieldset:after {
+    display: table;
+    content: " ";
+}
+
+#fieldset-2 .side-by-side-fieldset:after {
+    clear: both;
+}
+
+#fieldset-2 .side-by-side-fieldset > div {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+
+#fieldset-2 .side-by-side-fieldset > div:nth-of-type(n) {
+    width: 60%;
+}
+
+#fieldset-2 .side-by-side-fieldset > div:nth-of-type(n) > label, #fieldset-2 .side-by-side-fieldset > div:nth-of-type(n) > div {
+    display: inline-block;
+}
+
+#fieldset-2 .side-by-side-fieldset > div:nth-of-type(2n) {
+    width: 40%;
+}
+
+#fieldset-2 .side-by-side-fieldset > div:nth-of-type(2n) > label {
+    width: 2.5rem;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+#fieldset-2 .side-by-side-fieldset > div:nth-of-type(2n) > input {
+    width: calc(100% - 3.5rem);
+}
+
+.phone-number {
+    display: inline-block !important;
+}
+
+.phone-number > input {
+    display: inline-block;
+    float: left;
+    width: 20rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.phone-number:before, .phone-number:after {
+    display: table;
+    content: ' ';
+}
+
+.phone-number:after {
+    clear: both;
+}
+
+.phone-label {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+#phone-3-label {
+    width: 10.5rem;
+    text-align: right;
+    margin-right: 1.5rem
+}
+
+#email-address-warning {
+    line-height: 1.25;
+}
+
+#fieldset-7 p, #fieldset-8 p {
+    font-size: 1.1rem;
+    line-height: 1.25;
+}
+
+#fieldset-8 p {
+    margin-bottom: 0.75rem;
+}
+
+#underlisted-persons {
+    display: inline-block;
+    list-style-type: lower-roman;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#underlisted-persons:before, #underlisted-persons:after {
+    display: table;
+    content: " ";
+}
+
+#underlisted-persons:after {
+    clear: both;
+}
+
+#underlisted-persons > li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+#underlisted-persons > li > span {
+    width: 2rem;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0.25rem;
+}
+
+#underlisted-persons > li > input {
+    width: calc(100% - 2.5rem);
+}
+
+#underlisted-persons > li:last-of-type {
+    top: 0.25rem;
+    width: 50%;
+}
+
+#company-name-field {
+    padding: 0 0 0 2.25rem;
+    width: 100%;
+}
+
+#company-name-field > input {
+    width: 100%;
+}
+
+#field-8-conclusion {
+    padding: 0.75rem 0 0 2.25rem;
+    font-size: 1.1rem;
+}
+
+#fieldset-9 p {
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    padding: 0 2rem 0 0;
+}
+
+#fieldset-12 > div {
+    padding-top: 2rem;
+}
+
+#fieldset-12 .inner-fieldset {
+    margin-bottom: 0.75rem;
+}
+
+#fieldset-12 .inner-fieldset label {
+    display: inline-block;
+    width: 6rem;
+}
+
+#fieldset-12 .inner-fieldset input {
+    width: calc(100% - 6.5rem);
+}
+
+.field-11-two {
+    margin: 0.75rem 0;
+    width: 100%;
+}
+
+.field-11-two > div {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.field-11-two:before, .field-11-two:after, .date-formatting:before, .date-formatting:after {
+    display: table;
+    content: " ";
+}
+
+.field-11-two:after, .date-formatting:after {
+    clear: both;
+}
+
+label[for=date] {
+    width: 3rem !important;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+/*================================================
+    Date
+================================================*/
+.date-formatting {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 6.5rem);
+}
+
+.date-formatting > li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.date-formatting > li > input {
+    width: 3rem !important;
+    text-align: center;
+}
+
+.date-formatting > li:last-of-type > input {
+    width: 4rem !important;
+}
+
+.date-formatting > li:after {
+    content: '/';
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    position: relative;
+    top: 0.25rem;
+}
+
+.date-formatting > li:last-of-type:after {
+    content: " ";
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#signature {
+    width: 50% !important;
+    padding: 1.5rem 0;
+}
+
+.date-fieldset {
+    position: relative;
+    top: 1.5rem;
+    text-align: right;
+}
+
+#fieldset-13 > div {
+    background-color: #E2E3E4;
+}
+
+#fieldset-13 textarea {
+    width: 100%;
+    min-height: 15rem;
+    border: 1px solid #ACACAC;
+    font-family: inherit;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.account-opening-form-main-footer {
+    margin-top: 3rem;
+    min-height: 4rem;
+    background-color: #B41F3B;
+}
+
+.account-opening-form-main-footer > div {
+    float: left;
+    width: 50%;
+    position: relative;
+    bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .account-opening-form-main-footer > div {
+        padding: 0 5%;
+    }
+}
+
+.account-opening-form-main-footer:before, .account-opening-form-main-footer:after {
+    content: " ";
+    display: table;
+}
+
+.account-opening-form-main-footer:after {
+    clear: both;
+}
+
+#right-container {
+    text-align: right;
+    float: right;
+}
+
+.footer-ball {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #FFFFFF;
+    padding: 0.25rem;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin: 0 0.125rem;
+}
+
+.footer-ball > span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #F68633;
+    border-radius: 50%;
+    vertical-align: center;
+    padding: 0.8rem;
+    color: #FFFFFF;
+}
+
+.footer-ball.active-ball > span {
+    background-color: #B63347;
+}
+
+#right-container .footer-ball {
+    float: right;
+}
+
+#left-container {
+    display: none;
+}
+
+.form-page-footer > p {
+    float: left;
+    width: 50%;
+    color: #6E6F72;
+    font-family: "Leelawadee-Regular", "Leelawadee", "Helvetica", sans-serif;
+}
+
+.form-page-footer:before, .form-page-footer:after {
+    display: table;
+    content: " ";
+}
+
+.form-page-footer:after {
+    clear: both;
+}
+
+.form-page-footer {
+    margin-top: -1rem;
+}
+
+.form-page-footer > p:last-of-type {
+    text-align: right;
+}
+
+.form-page-continue-button {
+    margin: 2rem 0 0;
+    text-align: center;
+}
+
+.form-page-continue-button > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #B41F3B;
+    padding: 0.75rem 1.5rem;
+    border-radius: 3px;
+    transition: background-color 0.2s linear;
+}
+
+.form-page-continue-button > a:hover {
+    background-color: #9B1B33;
+}
+
+#form-page-2, #form-page-3, #form-page-4, #form-page-5 {
+    display: none;
+}
+
+.form-row {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-row > * {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-row > label {
+    padding: 0.25rem 1rem;
+}
+
+.form-row > input[type=text] {
+    padding: 0.25rem 0.75rem;
+}
+
+label[for=directors-data-1-name], label[for=directors-data-1-date-of-birth] {
+    width: 8rem;
+}
+
+#directors-data-1-name {
+    width: calc(100% - 8rem);
+}
+
+.form-row:before, .form-row:after {
+    display: table;
+    content: " ";
+}
+
+.form-row:after {
+    clear: both;
+}
+
+#directors-data-1-means-of-id-container input[type=radio], #directors-data-2-means-of-id-container input[type=radio],
+#directors-data-3-means-of-id-container input[type=radio]{
+    margin: 0 0 0 1rem ;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 0.125rem;
+}
+
+#directors-data-1-means-of-id-container input[type=radio]:checked, #directors-data-2-means-of-id-container input[type=radio]:checked,
+#directors-data-3-means-of-id-container input[type=radio]:checked {
+    background-color: #5B595B;
+}

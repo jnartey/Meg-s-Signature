@@ -1,0 +1,120 @@
+/*================================================
+    Font facing
+================================================*/
+@font-face {
+    font-family: "Leelawadee-Regular";
+    src: url('../font/leelawadee-regular.eot');
+    src: url('../font/leelawadee-regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/leelawadee-regular.woff2') format('woff2'),
+        url('../font/leelawadee-regular.woff') format('woff'),
+        url('../font/leelawadee-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Leelawadee-Bold";
+    src: url('../font/leelawadee-bold.eot');
+    src: url('../font/leelawadee-bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/leelawadee-bold.woff2') format('woff2'),
+        url('../font/leelawadee-bold.woff') format('woff'),
+        url('../font/leelawadee-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Basic-Sans-SF";
+    src: url('../font/basic_sans_sf.eot');
+    src: url('../font/basic_sans_sf.eot?#iefix') format('embedded-opentype'),
+        url('../font/basic_sans_sf.woff2') format('woff2'),
+        url('../font/basic_sans_sf.woff') format('woff'),
+        url('../font/basic_sans_sf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Candara-Regular";
+    src: url('../font/candara-regular.eot');
+    src: url('../font/candara-regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/candara-regular.woff') format('woff'),
+        url('../font/candara-regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Candara-Italic";
+    src: url('../font/candara-italic.eot');
+    src: url('../font/candara-italic.eot?#iefix') format('embedded-opentype'),
+    url('../font/candara-italic.woff') format('woff'),
+    url('../font/candara-italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*================================================
+    Resets on the form
+================================================*/
+html {
+    font-family: "Leelawadee-Regular", "Leelawadee", "Helvetica", sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #58595B;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    line-height: 1;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Candara-Regular", "Candara", "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+}
+
+fieldset {
+    border: none;
+}

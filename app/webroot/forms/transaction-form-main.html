@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0"/>
+    <meta http-equiv="x-ua-compatible" content="ie=9"/>
+
+    <link rel="stylesheet" href="css/general.css?update_id=1"/>
+    <link rel="stylesheet" href="css/transaction-form-main-styles.css"/>
+    <title>Transaction Form - Brooks Assets Management</title>
+</head>
+
+<body>
+<div class="transaction-form-main">
+    <a href="http://www.brooksmoney.com" id="transaction-form-main-logo-container">
+        <img src="img/logo.png" alt="Brooks Assets Management Official Logo"/>
+    </a>
+
+    <h1 id="transaction-form-main-h1">Transaction Form</h1>
+    <h2 id="transaction-form-main-h2"><span>Brooks Asset Management</span> High Premium Investment</h2>
+    <h3 id="transaction-form-instruction">To complete this form, you must have an Account with Brooks. If you don’t have
+        one, please request for an Account
+        Opening Form to create an account before you can apply for this product. All information provided on this forms
+        is
+        treated with the utmost confidentiality</h3>
+
+    <form id="transaction-form-main-form">
+        <fieldset>
+            <h3><span>A.</span>Account Information</h3>
+            <div class="transaction-form-main-input-container">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname"/>
+            </div>
+
+            <div class="transaction-form-main-input-container">
+                <label for="given-names">Given name(s)</label>
+                <input type="text" id="given-names"/>
+            </div>
+
+            <div class="transaction-form-main-input-container">
+                <label for="account-number">Account Number</label>
+                <input type="text" id="account-number"/>
+            </div>
+
+            <div class="transaction-form-main-input-container">
+                <label for="branch">Branch</label>
+                <input type="text" id="branch"/>
+            </div>
+
+            <div class="two-transaction-form-main-input-container">
+                <div class="sub-container">
+                    <label for="time-of-application">Time of application</label>
+                    <input type="text" id="time-of-application"/>
+                </div>
+                <div class="sub-container">
+                    <label>Date of application</label>
+                    <input type="text"/>
+                </div>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <h3><span>B.</span>Application</h3>
+            <div class="premium-high-note">
+                <label for="premium-high-note">I here apply to purchase a High Premium Note (HPI) of the amount</label>
+                <input type="text" id="premium-high-note"/>
+            </div>
+            <input type="text" class="input-full-width"/>
+
+            <div class="two-transaction-form-main-input-container ghc-cheque-row">
+                <div>
+                    <label for="ghc">GHC</label>
+                    <input type="text" id="ghc"/>
+                </div>
+
+                <div>
+                    <label for="cheque-number">Cheque No/Cash</label>
+                    <input type="text" id="cheque-number"/>
+                </div>
+            </div>
+
+            <h4 class="form-inner-heading">Status:</h4>
+            <div id="status-checkbox-container">
+
+            </div>
+
+            <h4 class="form-inner-heading">Under the following terms:</h4>
+        </fieldset>
+
+
+        <fieldset>
+            <h3><span>C.</span>ITF Instruction</h3>
+            <p id="sub-info">Must be accompanied by birth certificates and passport pictures respectively.</p>
+            <div class="itf-instruction-container">
+                <div>
+                    <p>Surname:</p>
+                    <input type="text" placeholder="(1)"/>
+                    <input type="text" placeholder="(2)"/>
+                    <input type="text" placeholder="(3)"/>
+                </div>
+
+                <div>
+                    <p>First Name:</p>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                </div>
+
+                <div>
+                    <p>Date of Birth(DD/MM/YY)</p>
+                </div>
+            </div>
+        </fieldset>
+
+
+        <fieldset id="d-fieldset">
+            <h3><span>D.</span>Applicant's Declaration</h3>
+            <p>I/We have carefully read the Terms and Conditions overleaf for applying for the High Premium Investment
+                (HPI), and declare my/our acceptance of all conditions enshrined. I/We declare that I/We shall maintain
+                this account in compliance with all statutory and regulatory requirements related to my/our investments.
+                I/We also declare that brooks shall exercise discretion to ensure that my/our account is compliant.</p>
+            <div class="d-fieldset-container">
+                <div class="d-fieldset-container-inner">
+                    <label for="authorised-signatory">Authorised Signatory</label>
+                    <input type="text" id="authorised-signatory"/>
+                </div>
+
+                <div class="d-fieldset-container-inner">
+                    <label for="co-authorised-signatory">Co-authorised Signatory</label>
+                    <input type="text" id="co-authorised-signatory"/>
+                </div>
+            </div>
+            <div class="d-fieldset-container">
+                <div id="d-fieldset-date-container">
+                    <label for="d-fieldset-date">Date</label>
+                    <input type="text" id="d-fieldset-date"/>
+                </div>
+            </div>
+        </fieldset>
+
+
+        <fieldset id="e-fieldset">
+            <h3><span>E.</span>Official Use Only (Brooks Asset Management Limited)</h3>
+            <div class="three-columns">
+                <div>
+                    <label for="pbogr">PBOGR</label>
+                    <input type="text" id="pbogr"/>
+                </div>
+
+                <div>
+                    <label for="receipts-number">Brooks Receipt Number</label>
+                    <input type="text" id="receipts-number"/>
+                </div>
+                <div>
+                    <label for="pay-in">Pay In</label>
+                    <input type="text" id="pay-in"/>
+                </div>
+            </div>
+
+            <div id="remarks-row">
+                <label for="remarks">Remarks</label>
+                <input type="text" id="remarks"/>
+            </div>
+
+            <div id="e-fieldset-double-column">
+                <div class="inner">
+                    <label for="authorizing-signature">Authorizing signature</label>
+                    <input type="text" id="authorizing-signature"/>
+                </div>
+                <div class="inner date-formatting">
+                    <label>Date</label>
+                    <ul>
+                        <li><input type="text" style="width: 3rem" placeholder="DD" maxlength="2"/></li>
+                        <li><input type="text" style="width: 3rem" placeholder="MM" maxlength="2"/></li>
+                        <li><input type="text" style="width: 5rem" placeholder="YYYY" maxlength="4"/></li>
+                    </ul>
+
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <p id="form-after">
+        <span>High Premium Investment</span>
+        <span>Brooks Asset Management   Company  Reg. No. CA-86,478</span>
+    </p>
+</div>
+</body>
+</html>

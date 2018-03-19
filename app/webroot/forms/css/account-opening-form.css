@@ -1,0 +1,134 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.account-opening-form {
+    background-color: #F2F2F3;
+    width: 100%;
+    height: 100%;
+}
+
+.account-opening-form > #header-container {
+    text-align: right;
+    padding: 0 2rem;
+    height: 7rem;
+}
+
+.account-opening-form > #header-container > header {
+    display: inline-block;
+    background-color: #C2C1C3;
+    padding: 1rem 1.25rem;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #414142;
+}
+
+.links {
+	width:500px;
+	height:auto;
+	overflow:hidden;
+	margin:0 auto;
+	padding:35px;
+	text-align:center;
+}
+
+.links a {
+	display:inline-block;
+	color:#414142;
+	font-size:1.2rem;
+	margin-bottom:12px;
+	text-decoration:none;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 2rem 5% 1rem;
+    }
+
+    .account-opening-form {
+        border-radius: 1rem;
+    }
+
+    .account-opening-form > #header-container > header {
+        padding-top: 1.5rem;
+        margin-top: -2rem;
+    }
+}
+
+.account-opening-form > #header-container > header > span {
+    display: block;
+    font-size: 1rem;
+    color: #231F20;
+    margin-top: 0.5rem;
+}
+
+#account-opening-form-logo {
+    display: block;
+    width: 11rem;
+    margin: 0 auto 2rem auto;
+}
+
+#account-opening-form-logo > img {
+    width: 100%;
+}
+
+.account-opening-main > h1{
+    text-align: center;
+    font-family: "Leelawadee-Bold", "Leelawadee", "Helvetica", sans-serif;
+    font-weight: normal;
+}
+
+.account-opening-main > div {
+    width: 26rem;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: #CFCFCD;
+    padding: 0 1rem 1rem;
+}
+
+.account-opening-main > div > h2 {
+    background-color: #B41F3B;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    font-family: "Leelawadee-Regular", "Leelawadee", "Helvetica", sans-serif;
+    font-weight: normal;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.account-opening-main > div > h3 {
+    margin: 0.5rem 0 0;
+    font-family: "Leelawadee-Regular", "Leelawadee", "Helvetica", sans-serif;
+    font-weight: normal;
+    font-size: 1.75rem;
+}
+
+.account-opening-form > footer > p {
+    line-height: 1;
+    text-align: right;
+    padding: 0 0.5rem;
+}
+
+/*================================================
+    Height setting
+================================================*/
+.account-opening-form > main {
+    height: calc(85% - 7rem);
+	min-height:600px;
+}
+
+.account-opening-form > footer {
+    height: 15%;
+}
+
+.account-opening-form > footer > div {
+    height: calc(100% - 1rem);
+    background-color: #B41F3B;
+}
+
+@media (min-width: 768px) {
+    .account-opening-form > footer > div {
+        border-radius: 0 0 1rem 1rem;
+    }
+}

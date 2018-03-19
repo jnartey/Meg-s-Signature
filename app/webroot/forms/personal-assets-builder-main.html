@@ -1,0 +1,643 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0"/>
+    <meta http-equiv="x-ua-compatible" content="ie=9"/>
+
+    <link rel="stylesheet" href="css/general.css?update_id=1"/>
+    <link rel="stylesheet" href="css/personal-assets-builder-main.css"/>
+    <title>Personal Assets Builder - Brooks Assets Management</title>
+</head>
+
+<body>
+<div id="top-right-corner">
+    <span>1A</span>
+
+    <header>Client Profile - <span>Individual Form</span></header>
+
+    <div><a href="http://www.brooksmoney.com">Brooks</a></div>
+</div>
+<form class="pab-main-main" method="post">
+    <div id="sub-page-1">
+
+        <section id="brooks-table">
+            <header>Brooks will fill these</header>
+            <div>
+                <div>
+                    <label for="agent-name">RM/Agent Name:</label>
+                    <input type="text" id="agent-name"/>
+                </div>
+
+                <div>
+                    <label for="agent-code">Agent Code:</label>
+                    <input type="text" id="agent-code"/>
+                </div>
+
+                <div>
+                    <label for="cin">CIN:</label>
+                    <input type="text" id="cin"/>
+                </div>
+
+                <div>
+                    <label for="application-ref">Application Ref:</label>
+                    <input type="text" id="application-ref"/>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="form-details" id="form-1">
+            <h2><span>1</span>Tell us all about yourself</h2>
+            <div>
+                <div class="form-row">
+                    <label for="title">Title</label>
+                    <div>
+                        <input type="hidden" id="title" name="title"/>
+                        <ul class="title-element">
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Mr."/>Mr</a></li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Mrs."/>Mrs.</a>
+                            </li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Miss"/>Miss</a>
+                            </li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Dr."/>Dr.</a></li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Prof."/>Prof.</a>
+                            </li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Rev."/>Rev.</a>
+                            </li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title" value="Fr."/>Fr.</a></li>
+                            <li><a href="javascript:void(0);"><input type="radio" name="title"
+                                                                     value="Others"/>Others</a></li>
+                            <li><a href="javascript:void(0);">Specify</a><input type="text"/></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="form-row" id="surname-row">
+                    <label for="surname">Surname</label>
+                    <div class="name-input-container">
+                        <input type="text" id="surname"/>
+                    </div>
+                </div>
+
+                <div class="form-row" id="other-names-row">
+                    <label for="other-names">Other Names</label>
+                    <div class="name-input-container">
+                        <input type="text" id="other-names"/>
+                    </div>
+                </div>
+
+                <div class="form-row" id="dob-gender-row">
+                    <div id="date-of-birth-column" class="form-row">
+                        <label for="date-of-birth">Date of Birth</label>
+                        <input type="text" name="date-of-birth[]" id="date-of-birth" placeholder="DATE OF BIRTH" class="date-input"/>
+                    </div>
+                    <div id="gender-column" class="form-row">
+                        <label>Gender</label>
+                        <div>
+                            <span><input type="radio" name="gender" value="Male"/>Male</span>
+                            <span><input type="radio" name="gender" value="Female"/>Female</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row" id="nationality-residency-row">
+                    <div id="nationality-column" class="form-row">
+                        <label>Nationality</label>
+                        <div>
+                            <span><input type="radio" name="nationality" value="Ghanaian"/>Ghanaian</span>
+                            <span><input type="radio" name="nationality" value="Others"/>Others</span>
+                        </div>
+                    </div>
+
+                    <div class="form-row" id="residency-column">
+                        <label>Residency Status</label>
+                        <div>
+                            <span><input type="radio" name="residency" value="Resident"/>Resident</span>
+                            <span><input type="radio" name="residency" value="Non-Resident"/>Non-Resident</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-row input-cluster">
+                    <label for="passport-number">NIC/Passport No.</label>
+                    <div>
+                        <input type="text" maxlength="20" id="passport-number" name="passport-number" placeholder="NIC/ Passport No."/>
+                    </div>
+                </div>
+
+                <div class="form-row input-cluster">
+                    <label for="drivers-license-number">Driver's License No.</label>
+                    <div>
+                        <input type="text" maxlength="20" id="drivers-license-number" name="drivers-license" placeholder="Driver's License"/>
+                    </div>
+                </div>
+
+                <div class="form-row input-cluster">
+                    <label for="drivers-license-number">Birth Certificate/Other</label>
+                    <div>
+                        <input type="text" maxlength="20" id="birth-certificate-number" name="birth-certificate" placeholder="Birth Certificate/ Other"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="form-details" id="form-2">
+            <h2><span>2</span>How can we reach you?</h2>
+            <div>
+                <div class="form-row permanent-address-merge">
+                    <label class="wide" for="permanent-address">Permanent Address</label>
+                    <div>
+                        <input type="text" id="permanent-address">
+                    </div>
+                </div>
+
+                <div class="form-row permanent-address-merge">
+                    <label class="wide">&emsp;</label>
+                    <div>
+                        <div>
+                            <label style="border-left: none; border-top: none;">Town/City</label>
+                            <input type="text"/>
+                        </div>
+                        <div>
+                            <label style="border-top: none;">District</label>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row permanent-address-merge">
+                    <label class="wide">&emsp;</label>
+                    <div>
+                        <div>
+                            <label style="border-left: none; border-top: none; border-bottom: none;">Country</label>
+                            <input type="text"/>
+                        </div>
+                        <div>
+                            <label style="border-top: none; border-bottom: none;">Zip Code</label>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row" id="correspondence-address-merge-1">
+                    <label class="wide">Correspondence Address</label>
+                    <div>
+                        <input type="text"/>
+                    </div>
+                </div>
+
+                <div class="form-row" id="correspondence-address-merge-2">
+                    <label class="wide">
+                        <input type="radio" value="same" style="margin-right: 0.5rem; position: relative; top: 0.175rem;"/>Same as Permanent address
+                    </label>
+                    <div>
+                        <div>
+                            <label style="border-left: none;">Town/City</label>
+                            <input type="text"/>
+                        </div>
+                        <div>
+                            <label>District</label>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row" id="correspondence-address-merge-3">
+                    <label class="wide">&emsp;</label>
+                    <div>
+                        <div>
+                            <label style="border-left: none;">Country</label>
+                            <input type="text"/>
+                        </div>
+                        <div>
+                            <label style="border-top: none; border-bottom: none;">Zip Code</label>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row" id="phone-box-1">
+                    <label>Mobile</label>
+                    <ul>
+                        <li><input type="text" name="mobile-phone" placeholder="Mobile Phone" maxlength="10"/></li>
+                    </ul>
+
+                    <label style="border-left: 1px solid #939598;">Home Phone</label>
+                    <ul>
+                        <li><input type="text" name="home-phone" placeholder="Home Phone" maxlength="10"/></li>
+                    </ul>
+                </div>
+
+                <div class="form-row phone-box" id="phone-box-2">
+                    <label>Office Phone</label>
+                    <ul>
+                        <li><input type="text" name="office-phone" placeholder="Office Phone" maxlength="10"/></li>
+                    </ul>
+
+                    <label style="border-left: 1px solid #939598;">&emsp;</label>
+                    <ul>
+                        <li><input type="text" disabled style="background-color: #FFFFFF;"/></li>
+                    </ul>
+                </div>
+
+                <div class="form-row" id="email-box">
+                    <label style="border-radius: 0 0 0 1rem">E-mail</label>
+                    <div><input type="text" name="email" placeholder="Email"/></div>
+
+                    <label id="note">Designated e-mail address and mobile number is for the purpose of sending/
+                        receiving instructions / information subject to General Terms &amp; Conditions</label>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="form-details" id="form-3">
+            <h2><span>3</span>Financial and investment information
+                <small>(Please give the details of your financial & investment information)</small>
+            </h2>
+
+            <div>
+                <div class="form-row" id="form-3-heading">
+                    <label>Annual Income (From all sources, GHC)</label>
+                    <label>Estimated Liquid Net Worth: (GHC)</label>
+                    <label>Estimated Net Worth: (GHC)</label>
+                </div>
+
+                <div class="form-row worth-rows">
+                    <label><input type="radio" value="i" name="annual-income"/>Under 25,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="liquid-net-worth"/>Under 100,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="net-worth"/>Under 100,000</label>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row worth-rows">
+                    <label><input type="radio" value="ii" name="annual-income"/>Under 25,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="liquid-net-worth"/>100,000 - 500,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="net-worth"/>100,000 - 500,000</label>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row worth-rows">
+                    <label><input type="radio" value="iii" name="annual-income"/>25,000 - 50,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="liquid-net-worth"/>500,000 - 1,000,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="net-worth"/>500,000 - 1,000,000</label>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row worth-rows">
+                    <label><input type="radio" value="iv" name="annual-income"/>50,000 - 100,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="liquid-net-worth"/>1,000,000 - 1,500,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="net-worth"/>1,000,000 - 1,500,000</label>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row worth-rows">
+                    <label><input type="radio" value="v" name="annual-income"/>100,000 - 200,000</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="liquid-net-worth"/>1,500,000+</label>
+                    <input type="text"/>
+                    <label><input type="radio" value="" name="net-worth"/>1,500,000+</label>
+                    <input type="text"/>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div>
+        <section class="form-details" id="form-4">
+            <h2><span>4</span></h2>
+
+            <div>
+                <div class="form-row" id="form-4-header">
+                    <label>Investment Objectives(check all that apply):</label>
+                    <label>Wealth Management Goal (Check all that apply):</label>
+                </div>
+
+                <div class="form-row">
+                    <label><input type="checkbox"/>Preservation</label>
+                    <label><input type="checkbox"/>Asset Builder</label>
+                </div>
+
+                <div class="form-row">
+                    <label><input type="checkbox"/>Income</label>
+                    <label><input type="checkbox"/>General wealth management plan</label>
+                </div>
+
+                <div class="form-row">
+                    <label><input type="checkbox"/>Long Term Growth</label>
+                    <label>&emsp;</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-details" id="form-5">
+            <h2><span>5</span>Investor Profile</h2>
+
+            <div>
+                <div class="form-row" id="form-5-header">
+                    <label>Investment Time Horizon</label>
+                </div>
+
+                <div class="form-row">
+                    <label><input type="radio" name="ith" value="<=3"/>Up to 3 years</label>
+                    <label><input type="radio" name="ith" value="6-10"/>6 - 10 years</label>
+                </div>
+
+                <div class="form-row">
+                    <label><input type="radio" name="ith" value="4-5"/>4 - 5 years</label>
+                    <label><input type="radio" name="ith" value="10+"/>10+ years</label>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="form-details" id="form-6">
+            <h2 id="form-6-header">Considering your investment time horizon and the risk and return issues important to
+                successful investing, which one of the following investment objectives most closely meets your needs and
+                circumstances?</h2>
+            <div>
+                <div class="form-row">
+                    <input type="radio" name="investment-objectives"/>
+                    <p class="double-line">Aggressive Growth – Growth of capital through investments in common stocks of
+                        small, emerging growth companies.<br>No income considerations. Little or no concern for
+                        volatility.</p>
+                </div>
+
+                <div class="form-row">
+                    <input type="radio" name="investment-objectives"/>
+                    <p class="double-line">Long-Term Growth – Growth of capital through investments of common stocks of
+                        established Blue Chip companies.<br>Little or no income considerations.</p>
+                </div>
+
+                <div class="form-row">
+                    <input type="radio" name="investment-objectives"/>
+                    <p>Balanced Growth – Growth of capital through approximately equal investments in high quality
+                        common stocks and fixed income securities.</p>
+                </div>
+
+                <div class="form-row">
+                    <input type="radio" name="investment-objectives"/>
+                    <p>Conservative Income and Growth – Growth of capital through fixed income securities and stocks for
+                        growth and dividend yield.</p>
+                </div>
+
+                <div class="form-row">
+                    <input type="radio" name="investment-objectives"/>
+                    <p class="double-line">Capital Preservation and income – income and safety are the primary emphases,
+                        sought through investment in Government and<br>other investment-grade fixed income securities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-details" id="form-7">
+            <h2><span>6</span>Deposit Installment Plan</h2>
+
+            <div>
+                <div class="form-row">
+                    <div>
+                        <input type="radio" name="dip-time" value="weekly" id="weekly-dip"/>
+                        <label for="weekly-dip">Weekly</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="dip-time" id="monthly-dip" value="monthly"/>
+                        <label for="monthly-dip">Monthly</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="dip-time" id="other-dip" value="others"/>
+                        <label for="other-dip">Other (specify)</label>
+                        <input type="text"/>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Amount: GHC:</label>
+                    <input type="text"/>
+                    <label>Amount in words</label>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row">
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row">
+                    <label for="ddp-dip">Deposit Date Plan</label>
+                    <input type="text" id="ddp-dip"/>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <div>
+        <section class="form-details" id="form-8">
+            <h2><span>7</span>Beneficiary(ies)</h2>
+
+            <div>
+                <div class="form-row" id="form-8-header">
+                    <label>Name(First, Middle, Last)</label>
+                    <label>Social Security/ ID</label>
+                    <label>Relationship</label>
+                    <label>Birthdate (dd/mm/yyyy)</label>
+                </div>
+
+                <div class="form-row">
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row">
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                </div>
+
+                <div class="form-row">
+                    <input type="text"/>
+                    <input type="text"/>
+                    <input type="text"/>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-details" id="form-9">
+            <h2><span>8</span>Applicant's Declaration</h2>
+            <div>
+                <div class="form-row">
+                    I/We have carefully read and understood the BROOKS PAB prospectus, and declare my/our acceptance of
+                    all conditions enshrined.<br>
+                    I/We declare that I/We shall maintain this account in compliance with all BROOKS’ regulatory
+                    requirements related to this investment plan.<br>
+                    I/We also declare that BROOKS shall exercise discretion to ensure that my/our account is compliant
+                    to internal and external statutory and regulatory requirements.
+                </div>
+
+                <div class="form-row">
+                    <label for="applicant-signature">Applicant's Signature</label>
+                    <input type="text" id="applicant-signature"/>
+                    <label for="applicant-date">Date</label>
+                    <input type="text" id="applicant-date" maxlength="10" class="applicant-date" placeholder="Date"/>
+                </div>
+
+                <div class="form-row">
+                    <label for="applicant-witness-name">Applicant's witness Name:</label>
+                    <input type="text" id="applicant-witness-name"/>
+                    <label for="witness-signature">Witness Signature:</label>
+                    <input type="text" id="witness-signature"/>
+                </div>
+            </div>
+        </section>
+
+        <div class="invert-form-details">
+            <section class="form-details" id="form-10">
+                <h2>Double Check Everything</h2>
+
+                <div>
+                    <div class="form-row">
+                        <label>List of identity<br>verification<br>documents attached</label>
+                        <div>
+                            <div class="identity-row">
+                                <input type="checkbox" id="nic-card"/>
+                                <label for="nic-card">National Identity Card</label>
+                                <span>or</span>
+                                <input type="checkbox" id="passport"/>
+                                <label for="passport">Valid Passport</label>
+                                <span>or</span>
+                                <input type="checkbox" id="drivers-license"/>
+                                <label for="drivers-license">Valid Driver's License</label>
+                                <span>or</span>
+                                <input type="checkbox" id="birth-certificate"/>
+                                <label for="birth-certificate">Birth Certificate</label>
+                                <span>or</span>
+                                <input type="checkbox" id="other"/>
+                                <label for="other">Other</label>
+                            </div>
+
+                            <div class="identity-row">
+                                <input type="checkbox" id="any-other"/>
+                                <label for="any-other">Any other identification document acceptable to BROOKS</label>
+                                <span>&emsp;</span>
+                                <input type="checkbox" id="marriage-certificate"/>
+                                <label for="marriage-certificate">Marriage certificate (only for name change)</label>
+                            </div>
+
+                            <div class="identity-row">
+                                <input type="checkbox"/>
+                                <label>Proof of address verification, required if the permanent address is different to
+                                    the address mentioned in the<br>identification verification document, then proof of
+                                    address verification should be submitted. e.g. electricity bill, water bill</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-details" id="form-11">
+                <h2>For official use only</h2>
+                <div>
+                    <div class="form-row">
+                        <label for="cin-official">CIN</label>
+                        <input type="text" class="cin-input" maxlength="7" id="cin-official"/>
+
+                        <label for="account-opening-date">Account opening date</label>
+                        <input type="text" id="account-opening-date"/>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="rm-agent-name">RM/Agent Name</label>
+                        <input type="text" id="rm-agent-name"/>
+                        <label for="town-of-agent">City/Town of RM/Agent</label>
+                        <input type="text" id="town-of-agent"/>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="entered-by">Entered by</label>
+                        <input type="text" id="entered-by"/>
+
+                        <label for="approved-by">Approved by</label>
+                        <input type="text" id="approved-by"/>
+                    </div>
+
+                    <div class="form-row">
+                        <label id="payed-in-label">Payed in by</label>
+                        <div class="form-stretch">
+                            <div class="third-division">
+                                <input type="radio" name="paid-in-by" id="my-wealth"/>
+                                <label for="my-wealth">My Wealth</label>
+                            </div>
+
+                            <div class="third-division">
+                                <input type="radio" name="paid-in-by" id="pwm"/>
+                                <label for="pwm">PWM (Custody)</label>
+                            </div>
+
+                            <div class="third-division">
+                                <input type="radio" name="paid-in-by" id="pwm-non-custody"/>
+                                <label for="pwm-non-custody">PWM (Non-custody)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="date-received">Date received</label>
+                        <input type="text" id="date-received" class="date-received-element" placeholder="Date received">
+
+                        <label for="date-registered">Date Registered</label>
+                        <input type="text" id="date-registered" class="date-registered-element" placeholder="Date registered">
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-details" id="form-12">
+                <h2>Notes</h2>
+                <textarea name="" id="" rows="6" draggable="false"></textarea>
+            </section>
+        </div>
+    </div>
+</form>
+
+<div class="final-footer">
+    <p><span id="left">Personal Asset Builder Form</span><span id="right">BROOKS Asset Management Company Reg. No. CA-86,478</span>
+    </p>
+</div>
+
+<footer class="account-opening-form-main-footer"><!-- The main footer -->
+    <!-- The container for the balls -->
+    <div class="footer-ball-container" id="left-container">
+        <span class="footer-ball"><span></span></span>
+        <span class="footer-ball active-ball"><span>1</span></span>
+        <span class="footer-ball"><span></span></span>
+    </div>
+
+    <div class="footer-ball-container" id="right-container">
+        <span class="footer-ball"><span></span></span>
+        <span class="footer-ball active-ball"><span>1</span></span>
+        <span class="footer-ball"><span></span></span>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+    $('.title-element li').click(function () {
+        var input = this.childNodes[0].childNodes[0];
+        input.setAttribute('checked', "true");
+    });
+</script>
+</body>
+</html>
